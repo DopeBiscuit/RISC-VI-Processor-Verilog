@@ -8,6 +8,10 @@ module dmem (
 
     reg [31:0] mem [0:63];  // memory
 
+    initial begin
+        $readmemh("dmem.txt", mem);  // read memory from file
+    end
+
     assign data_out = mem[addr];  // assign data_out
 
     // print data to memory
