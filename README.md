@@ -20,6 +20,35 @@ The RISC-VI processor is a modern, open-source instruction set architecture (ISA
 
 The processor design in this repository supports a variety of instruction types, such as I-type, B-type, R-type, J-type, and S-type. By implementing these instruction types, the processor becomes capable of executing a wide range of instructions, making it suitable for various applications and projects.
 
+## Processor Architecture
+
+The RISC-VI processor consists of several modules that work together to execute instructions. Below are the schematic images of each module:
+
+### Top-Down View
+
+![Top-Down View](schematics/top_view.jpeg)
+
+### Processor Schematic (Controller and Datapath)
+
+![Processor Schematic](schematics/processor_schematic.jpeg)
+
+### Datapath Schematic
+
+![Datapath Schematic](schematics/datapath_schematic.jpeg)
+
+### Controller Schematic
+
+![Controller Schematic](schematics/controller_schematic.jpeg)
+
+### Instruction Memory (imem) Schematic
+
+![Instruction Memory Schematic](schematics/imem_schematic.jpeg)
+
+### Data Memory (dmem) Schematic
+
+![Data Memory Schematic](schematics/dmem_schematic.jpeg)
+
+
 ## Repository Structure
 
 The repository is organized as follows:
