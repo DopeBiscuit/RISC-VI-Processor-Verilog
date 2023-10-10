@@ -1,3 +1,5 @@
+<div align="center"><img src="https://i.imgur.com/Ba9CDl0.jpg" alt="RISC-V Logo" width="300" height="300"/></div><hr>
+
 # RISC-VI Processor using Verilog
 
 This repository contains a RISC-VI processor implementation using Verilog. The project includes the processor design and all the necessary modules, along with their respective testbenches for easy testing and verification.
