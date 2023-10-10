@@ -69,12 +69,13 @@ To use this RISC-VI processor implementation, follow these steps:
 4. To test the modules, navigate to the `tests` directory and run the relevant testbench file(s) using a Verilog simulator of your choice. Make sure to include the original modules in the simulator project. For example:
 
    ```
-  cd test
+   cd test
    vsim risc_v_tb.v 
-   // Please note that the above command is for ModelSim. You may need to use a different command for your simulator.
-   // Please note that you need to include the original modules in the simulator project.
-   // Please note that you need to include the imem.txt and dmem.txt files in the simulator project with the data and instructions you want to test.
+   # Please note that the above command is for ModelSim. You may need to use a different command for your simulator.
+   # Please note that you need to include the original modules in the simulator project.
+   # Please note that you need to include the imem.txt and dmem.txt files in the simulator project with the data and instructions you want to test.
    ```
+
 
    This will run the testbench for `risc_v.v` and provide you with the simulation results and any potential errors.
 
