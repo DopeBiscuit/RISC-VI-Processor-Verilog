@@ -1,4 +1,4 @@
-<div align="center"><img src="https://i.imgur.com/Ba9CDl0.jpg" alt="RISC-V Logo" width="300" height="300"/></div><hr>
+<div align="center"><img src="schematics/logo.png" alt="RISC-V Logo" width="450" height="350"/></div><hr>
 
 # RISC-VI Processor using Verilog
 
