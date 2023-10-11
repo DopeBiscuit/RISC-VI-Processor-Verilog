@@ -20,7 +20,14 @@ I encourage users and contributors to review the code, provide feedback, and sug
 
 The RISC-VI processor is a modern, open-source instruction set architecture (ISA) that is gaining popularity in the field of computer architecture and embedded systems. With this project, I aimed to create a functional implementation of the RISC-VI processor using Verilog, a hardware description language (HDL).
 
-The processor design in this repository supports a variety of instruction types, such as I-type, B-type, R-type, J-type, and S-type. By implementing these instruction types, the processor becomes capable of executing a wide range of instructions, making it suitable for various applications and projects.
+The processor design in this repository supports a variety of instruction types, such as:
+* I-type - Immediate instructions 
+* B-type - Branch instructions
+* R-type - Register instructions
+* J-type - Jump instructions
+* S-type - Store instructions
+
+By implementing these instruction types, the processor becomes capable of executing a wide range of instructions, making it suitable for various applications and projects.
 
 ## Processor Architecture
 
